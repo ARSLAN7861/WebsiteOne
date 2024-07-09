@@ -459,11 +459,11 @@ body {
     background-color: black;
     color: white;
     font-family: a;
-    padding: 7vw 10vw;
+    padding: 6vw 10vw;
 }
 
 #page13>h1{
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1;
     font-weight: 100;
 }
@@ -475,4 +475,58 @@ body {
     color: white;
     border-radius: 50px;
     margin-top: 2vw;
+}
+
+
+#page14{
+    position: relative;
+    height: 53vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.page14-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5vw;
+    height: 33.33%;
+    width: 100%;
+    font-family: a;
+    color: white;
+    border-top: .3px solid rgba(255, 255, 255, 0.457) ;
+    border-bottom: .3px solid rgba(255, 255, 255, 0.457);
+
+}
+
+.page14-inner>i{
+    font-weight: 100;
+    font-size: 2.5vw;
+    position: relative;
+    z-index: 9999;
+}
+
+.page14-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+
+}
+
+.center14{
+    height: 0%;
+    width: 100%;
+    background-color: #0a3cce;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+}
+
+.page14-inner:hover .center14{
+    height: 100%;
 }
