@@ -366,3 +366,62 @@ body {
     font-size: 1.3vw;
     width: 80%;
 }
+
+#page11{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: white;
+    font-family: a;
+}
+
+#page11>h1{
+    top: 4%;
+    left: 10%;
+    position: absolute;
+    font-size: 4vw;
+    color: black;
+    font-weight: 100;
+}
+
+.page11-inner{
+    display: flex;
+    top: 17%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 22%;
+    width: 100%;
+
+}
+
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left11>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.right11{
+    padding-top: 5.5vw;
+    color: black;
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.right11>h4{
+    font-weight: 100;
+}
+.right11>h1{
+    font-size: 2vw;
+}
