@@ -22,11 +22,11 @@ body {
 }
 @font-face {
   font-family: b;
-  src: url(./fonts/KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+  src: url(./fonts/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
 }
 @font-face {
   font-family: c;
-  src: url(./fonts/KFOmCnqEu92Fr1Mu4mxK\\(1\).ttf);
+  src: url(./fonts/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
 }
 
 #page1 {
@@ -254,4 +254,37 @@ body {
 
 }
 
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
 
+#page8>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page8-bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: a;
+}
+.page8-bottom>h1{
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+    font-weight: 100;
+}
+.page8-bottom>button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0a3cce;
+}
