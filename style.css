@@ -451,3 +451,28 @@ body {
     font-size: 1.3vw;
 
 }
+
+#page13{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: a;
+    padding: 7vw 10vw;
+}
+
+#page13>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 100;
+}
+
+#page13>button{
+    padding: 18px 30px;
+    border: none;
+    background-color: #0a3cce;
+    color: white;
+    border-radius: 50px;
+    margin-top: 2vw;
+}
